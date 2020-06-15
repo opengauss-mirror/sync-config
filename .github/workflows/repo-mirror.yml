@@ -1,4 +1,4 @@
-name: OpenGauss gitee repos mirror periodic job
+name: OpenGauss gitee repos mirror manual job
 
 on:
   pull_request:
