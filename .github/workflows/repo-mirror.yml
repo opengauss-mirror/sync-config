@@ -25,3 +25,4 @@ jobs:
         dst_token:  ${{ secrets.SYNC_GAUSS_TOKEN }}
         account_type: org
         static_list: "openGauss-third_party"
+        clone_style: ssh
