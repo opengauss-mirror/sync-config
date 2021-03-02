@@ -26,4 +26,3 @@ jobs:
         dst_token:  ${{ secrets.SYNC_GAUSS_TOKEN }}
         account_type: org
         debug: true
-        white_list: 'infra'
