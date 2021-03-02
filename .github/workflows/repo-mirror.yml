@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: Mirror the gitee/opengauss org repos to github/opengauss-mirror.
-      uses: Yikun/hub-mirror-action@v0.08
+      uses: Yikun/hub-mirror-action@python
       with:
         src: gitee/opengauss
         dst: github/opengauss-mirror
