@@ -25,4 +25,6 @@ jobs:
         dst_key: ${{ secrets.SYNC_GAUSS_PRIVATE_KEY }}
         dst_token:  ${{ secrets.SYNC_GAUSS_TOKEN }}
         account_type: org
+        force_update: true
+        black_list: "openGauss-third_party"
         debug: true
