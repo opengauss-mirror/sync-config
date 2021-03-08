@@ -18,10 +18,13 @@ jobs:
 
     steps:
     - name: Mirror the gitee/opengauss org repos to github/opengauss-mirror.
-      uses: Yikun/hub-mirror-action@v0.08
+      uses: Yikun/hub-mirror-action@v1.0
       with:
         src: gitee/opengauss
         dst: github/opengauss-mirror
         dst_key: ${{ secrets.SYNC_GAUSS_PRIVATE_KEY }}
         dst_token:  ${{ secrets.SYNC_GAUSS_TOKEN }}
         account_type: org
+        # Skip this repo due to bigfile reason
+        black_list: "openGauss-third_party"
+        debug: true
