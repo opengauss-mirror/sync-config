@@ -28,3 +28,4 @@ jobs:
         # Skip this repo due to bigfile reason
         black_list: "openGauss-third_party"
         debug: true
+        force_update: true
