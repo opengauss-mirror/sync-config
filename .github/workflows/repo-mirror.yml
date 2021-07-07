@@ -3,7 +3,7 @@ name: openGauss gitee repos mirror periodic job
 
 on:
   pull_request:
-    # Runs at every pull requests submitted in master branch 
+    # Runs at every pull requests submitted in master branch.
     branches: [ master ]
     paths:
     - '.github/workflows/**'
